@@ -8,10 +8,10 @@ with only estimated parameters.
 For more information, see https://github.com/JeremyCCHsu/Python-Wrapper-for-World-Vocoder
 """
 
-from __future__ import division, print_function, absolute_import
+from __future__ import absolute_import, division, print_function
 
 import pkg_resources
 
-__version__ = pkg_resources.get_distribution('pyworld').version
+__version__ = pkg_resources.get_distribution("pyworld-fixed").version
 
 from .pyworld import *
